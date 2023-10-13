@@ -1,0 +1,21 @@
+.title{
+    color: rgb(0, 105, 197);
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.span{
+    color: rgb(42, 91, 237);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mathalBtn{
+    background-color: teal;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 20px;    
+    font-size: 26px;
+}

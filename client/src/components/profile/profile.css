@@ -1,0 +1,22 @@
+.profilePic{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all ease-in;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: rgb(27, 172, 172);
+    transform: scale(0.95);
+    color: white;
+}
+

@@ -1,0 +1,44 @@
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.singleImage{
+    width: 300px;
+    margin: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.7s all ease-in-out;
+}
+.singleImage:hover{
+    transform: scale(0.85)
+}
+
+
+.image{
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+    transition: 0.5s all ease-in;
+}
+.image:hover{
+    filter: brightness(60%);
+}
+
+
+.imageTitle{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.imageDesc{
+    font-size: 26px;
+    font-weight: 500;
+    color:#414141;
+    text-align: center;
+}

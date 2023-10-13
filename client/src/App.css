@@ -1,0 +1,69 @@
+/* .sec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.col{
+    float: left;
+    width: 50%;
+}
+
+body{
+    text-align: center;
+    padding: 2%;
+    font-size: 24px;
+    font-family: 'Harmattan', sans-serif;;
+}
+
+@media (max-width : 800px){
+    .col{
+        width: 100%;
+    }
+
+    body{
+        font-size: 16px;
+    }
+}
+
+
+
+
+.title-fade-out{
+    opacity: 0;
+    animation: fade-out 2s;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title-fade-in{
+    opacity: 100;
+    animation: fade-in 2s;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+@keyframes fade-out{
+    from{
+        opacity: 100;
+    }to{
+        opacity: 0;
+    }
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 100;
+    }
+}
